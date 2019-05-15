@@ -1,0 +1,43 @@
+2019-03-24 21:58:13,753[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.tal.kaoyan", "platformName": "Android", "platformVersion": "5.1.1", "appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "noReset": true, "deviceName": "127.0.0.1:62025"}, "capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.1.1", "appium:appPackage": "com.tal.kaoyan", "appium:appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "appium:deviceName": "127.0.0.1:62025", "appium:noReset": true, "appium:app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk"}]}}
+2019-03-24 21:58:13,802[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:26,280[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 881
+2019-03-24 21:58:26,283[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:26,286[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/timeouts/implicit_wait {"sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "ms": 5000.0}
+2019-03-24 21:58:26,287[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:26,294[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/timeouts/implicit_wait HTTP/1.1" 200 76
+2019-03-24 21:58:26,295[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:26,296[test_appium.py line:25] DEBUG: 启动考研帮...
+2019-03-24 21:58:26,297[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element {"using": "id", "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "value": "com.tal.kaoyan:id/login_email_edittext"}
+2019-03-24 21:58:26,298[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:27,349[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element HTTP/1.1" 200 87
+2019-03-24 21:58:27,350[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:27,351[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/1/clear {"sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "id": "1"}
+2019-03-24 21:58:27,352[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:31,904[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/1/clear HTTP/1.1" 200 76
+2019-03-24 21:58:31,905[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:31,906[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element {"using": "id", "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "value": "com.tal.kaoyan:id/login_email_edittext"}
+2019-03-24 21:58:31,907[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:31,924[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element HTTP/1.1" 200 87
+2019-03-24 21:58:31,925[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:31,927[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/2/value {"text": "zhou17330259", "id": "2", "value": ["z", "h", "o", "u", "1", "7", "3", "3", "0", "2", "5", "9"], "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea"}
+2019-03-24 21:58:31,928[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:36,687[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/2/value HTTP/1.1" 200 76
+2019-03-24 21:58:36,689[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:36,691[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element {"using": "id", "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "value": "com.tal.kaoyan:id/login_password_edittext"}
+2019-03-24 21:58:36,692[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:37,211[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element HTTP/1.1" 200 87
+2019-03-24 21:58:37,213[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:37,214[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/3/value {"text": "zxw2018", "id": "3", "value": ["z", "x", "w", "2", "0", "1", "8"], "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea"}
+2019-03-24 21:58:37,215[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:41,935[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/3/value HTTP/1.1" 200 76
+2019-03-24 21:58:41,937[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:41,938[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element {"using": "id", "sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "value": "com.tal.kaoyan:id/login_login_btn"}
+2019-03-24 21:58:41,940[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:42,462[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element HTTP/1.1" 200 87
+2019-03-24 21:58:42,463[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:42,464[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/4/click {"sessionId": "62577b96-e91e-4fe8-aae7-54a4bd06f9ea", "id": "4"}
+2019-03-24 21:58:42,465[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:58:42,632[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/62577b96-e91e-4fe8-aae7-54a4bd06f9ea/element/4/click HTTP/1.1" 200 76
+2019-03-24 21:58:42,633[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:58:42,634[test_appium.py line:69] DEBUG: Sun Mar 24 21:58:42 2019
+2019-03-24 21:58:42,634[test_appium.py line:79] DEBUG: 完成了

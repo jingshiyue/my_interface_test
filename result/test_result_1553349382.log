@@ -1,0 +1,7 @@
+2019-03-23 21:56:23,010[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:noReset": true, "appium:platformVersion": "5.1.1", "appium:appPackage": "com.tal.kaoyan", "appium:appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "appium:deviceName": "127.0.0.1:62025", "appium:app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk"}]}, "desiredCapabilities": {"platformName": "Android", "appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "deviceName": "127.0.0.1:62025", "noReset": true, "app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "appPackage": "com.tal.kaoyan", "platformVersion": "5.1.1"}}
+2019-03-23 21:56:23,054[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 21:56:36,478[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 881
+2019-03-23 21:56:36,484[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 21:56:36,490[test_appium.py line:23] DEBUG: 启动考研帮...
+2019-03-23 21:56:36,494[test_appium.py line:26] DEBUG: login...
+2019-03-23 21:56:36,495[test_appium.py line:31] DEBUG: 完成了

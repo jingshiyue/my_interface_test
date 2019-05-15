@@ -1,0 +1,66 @@
+2019-03-22 12:57:02,527[test_baidusearch.py line:28] DEBUG: open browser
+2019-03-22 12:57:05,612[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59852/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox", "marionette": true}}
+2019-03-22 12:57:05,615[connectionpool.py line:208] DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2019-03-22 12:57:08,741[connectionpool.py line:396] DEBUG: http://127.0.0.1:59852 "POST /session HTTP/1.1" 200 704
+2019-03-22 12:57:08,744[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:12,140[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59877/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox", "marionette": true}}
+2019-03-22 12:57:12,141[connectionpool.py line:208] DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2019-03-22 12:57:15,003[connectionpool.py line:396] DEBUG: http://127.0.0.1:59877 "POST /session HTTP/1.1" 200 704
+2019-03-22 12:57:15,005[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:15,006[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59877/session/71e56207-da88-40db-a962-cbc67c828a43/window/maximize {}
+2019-03-22 12:57:15,282[connectionpool.py line:396] DEBUG: http://127.0.0.1:59877 "POST /session/71e56207-da88-40db-a962-cbc67c828a43/window/maximize HTTP/1.1" 200 51
+2019-03-22 12:57:15,283[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:15,283[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59877/session/71e56207-da88-40db-a962-cbc67c828a43/timeouts {"implicit": 30000}
+2019-03-22 12:57:15,287[connectionpool.py line:396] DEBUG: http://127.0.0.1:59877 "POST /session/71e56207-da88-40db-a962-cbc67c828a43/timeouts HTTP/1.1" 200 14
+2019-03-22 12:57:15,288[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:15,288[test_baidusearch.py line:130] DEBUG: close browser
+2019-03-22 12:57:15,289[test_baidusearch.py line:28] DEBUG: open browser
+2019-03-22 12:57:18,338[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59912/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox", "marionette": true}}
+2019-03-22 12:57:18,340[connectionpool.py line:208] DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2019-03-22 12:57:21,176[connectionpool.py line:396] DEBUG: http://127.0.0.1:59912 "POST /session HTTP/1.1" 200 703
+2019-03-22 12:57:21,177[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:24,245[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox", "marionette": true}}
+2019-03-22 12:57:24,247[connectionpool.py line:208] DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2019-03-22 12:57:27,131[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session HTTP/1.1" 200 703
+2019-03-22 12:57:27,138[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:27,139[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/window/maximize {}
+2019-03-22 12:57:27,513[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/window/maximize HTTP/1.1" 200 51
+2019-03-22 12:57:27,514[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:27,515[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/timeouts {"implicit": 30000}
+2019-03-22 12:57:27,520[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/timeouts HTTP/1.1" 200 14
+2019-03-22 12:57:27,521[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:27,521[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/url {"url": "https://www.taobao.com/"}
+2019-03-22 12:57:32,548[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/url HTTP/1.1" 200 14
+2019-03-22 12:57:32,549[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,549[remote_connection.py line:388] DEBUG: GET http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/cookie {}
+2019-03-22 12:57:32,556[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "GET /session/0bde43cd-06ca-400b-9724-ab752ef654ed/cookie HTTP/1.1" 200 908
+2019-03-22 12:57:32,557[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,558[test_baidusearch.py line:115] DEBUG: {'value': 'cn', 'name': 'thw', 'domain': '.taobao.com', 'expiry': 1584766649, 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,558[test_baidusearch.py line:115] DEBUG: {'value': 'BKqqAo-lgvE7Ng6dD-ryr_Wi-BCMsy9JkIRYOjRjVv2IZ0ohHKt-hfC18xL7jKYN', 'name': 'isg', 'domain': '.taobao.com', 'expiry': 1568782649, 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[test_baidusearch.py line:115] DEBUG: {'value': '0', 'name': 'v', 'domain': '.taobao.com', 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[test_baidusearch.py line:115] DEBUG: {'value': '798af41c1d8ff3cb0ef170ef4514042e', 'name': 't', 'domain': '.taobao.com', 'expiry': 1561006651, 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[test_baidusearch.py line:115] DEBUG: {'value': '1b4c0f30baff025a38b8be3b4f6a7519', 'name': 'cookie2', 'domain': '.taobao.com', 'httpOnly': True, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[test_baidusearch.py line:115] DEBUG: {'value': '1b1663d38651', 'name': '_tb_token_', 'domain': '.taobao.com', 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[test_baidusearch.py line:115] DEBUG: {'value': 'PFkbFZx2bnICAXH7Mf1r3RQx', 'name': 'cna', 'domain': '.taobao.com', 'expiry': 2183950651, 'httpOnly': False, 'secure': False, 'path': '/'}
+2019-03-22 12:57:32,559[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element {"using": "xpath", "value": "//input[@id='q']"}
+2019-03-22 12:57:32,572[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element HTTP/1.1" 200 88
+2019-03-22 12:57:32,573[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,574[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/3ac36702-51de-4f96-9b16-7e9c51b34549/clear {"id": "3ac36702-51de-4f96-9b16-7e9c51b34549"}
+2019-03-22 12:57:32,588[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/3ac36702-51de-4f96-9b16-7e9c51b34549/clear HTTP/1.1" 200 14
+2019-03-22 12:57:32,589[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,589[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element {"using": "xpath", "value": "//input[@id='q']"}
+2019-03-22 12:57:32,599[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element HTTP/1.1" 200 88
+2019-03-22 12:57:32,602[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,602[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/3ac36702-51de-4f96-9b16-7e9c51b34549/value {"text": "\u5e3d\u5b50", "value": ["\u5e3d", "\u5b50"], "id": "3ac36702-51de-4f96-9b16-7e9c51b34549"}
+2019-03-22 12:57:32,622[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/3ac36702-51de-4f96-9b16-7e9c51b34549/value HTTP/1.1" 200 14
+2019-03-22 12:57:32,623[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,624[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element {"using": "xpath", "value": "//button[@type=\"submit\" and @class=\"btn-search tb-bg\"]"}
+2019-03-22 12:57:32,679[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element HTTP/1.1" 200 88
+2019-03-22 12:57:32,680[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:32,681[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/5b13f17d-a022-4986-b2c2-88b88713d323/click {"id": "5b13f17d-a022-4986-b2c2-88b88713d323"}
+2019-03-22 12:57:35,406[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/element/5b13f17d-a022-4986-b2c2-88b88713d323/click HTTP/1.1" 200 14
+2019-03-22 12:57:35,407[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:57:35,407[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:59942/session/0bde43cd-06ca-400b-9724-ab752ef654ed/elements {"using": "xpath", "value": "//div[@class=\"row row-2 title\"]"}
+2019-03-22 12:58:05,627[connectionpool.py line:396] DEBUG: http://127.0.0.1:59942 "POST /session/0bde43cd-06ca-400b-9724-ab752ef654ed/elements HTTP/1.1" 200 12
+2019-03-22 12:58:05,628[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:58:05,629[test_baidusearch.py line:130] DEBUG: close browser

@@ -1,0 +1,14 @@
+2019-03-24 21:14:52,686[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "noReset": true, "platformName": "Android", "deviceName": "127.0.0.1:62025", "app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "appPackage": "com.tal.kaoyan", "platformVersion": "5.1.1"}, "capabilities": {"firstMatch": [{"appium:platformVersion": "5.1.1", "appium:deviceName": "127.0.0.1:62025", "appium:noReset": true, "platformName": "Android", "appium:appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "appium:app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "appium:appPackage": "com.tal.kaoyan"}]}}
+2019-03-24 21:14:52,731[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:15:07,242[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 881
+2019-03-24 21:15:07,247[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:15:07,250[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/37f856a0-b377-4649-84b3-adb060bcd0ef/timeouts/implicit_wait {"ms": 5000.0, "sessionId": "37f856a0-b377-4649-84b3-adb060bcd0ef"}
+2019-03-24 21:15:07,252[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:15:07,264[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/37f856a0-b377-4649-84b3-adb060bcd0ef/timeouts/implicit_wait HTTP/1.1" 200 76
+2019-03-24 21:15:07,265[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:15:07,266[test_appium.py line:24] DEBUG: 启动考研帮...
+2019-03-24 21:15:07,267[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/37f856a0-b377-4649-84b3-adb060bcd0ef/element {"using": "id", "value": "com.tal.kaoyan:id/login_email_edittext", "sessionId": "37f856a0-b377-4649-84b3-adb060bcd0ef"}
+2019-03-24 21:15:07,267[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-24 21:15:12,647[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/37f856a0-b377-4649-84b3-adb060bcd0ef/element HTTP/1.1" 500 164
+2019-03-24 21:15:12,647[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-24 21:15:12,652[test_appium.py line:76] DEBUG: 完成了

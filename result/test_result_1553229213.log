@@ -1,0 +1,6 @@
+2019-03-22 12:33:33,398[test_baidusearch.py line:28] DEBUG: open browser
+2019-03-22 12:33:36,482[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:58662/session {"desiredCapabilities": {"acceptInsecureCerts": true, "marionette": true, "browserName": "firefox"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox"}}}
+2019-03-22 12:33:36,483[connectionpool.py line:208] DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2019-03-22 12:33:41,689[connectionpool.py line:396] DEBUG: http://127.0.0.1:58662 "POST /session HTTP/1.1" 200 703
+2019-03-22 12:33:41,701[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-22 12:35:05,027[test_baidusearch.py line:28] DEBUG: open browser

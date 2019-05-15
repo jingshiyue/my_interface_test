@@ -1,0 +1,29 @@
+2019-03-23 22:52:11,506[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "noReset": true, "appPackage": "com.tal.kaoyan", "platformVersion": "5.1.1", "platformName": "Android", "appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "deviceName": "127.0.0.1:62025"}, "capabilities": {"firstMatch": [{"appium:app": "C:\\Users\\Mir-Z\\Desktop\\my\\App\\kaoyan3.1.0.apk", "appium:appActivity": "com.tal.kaoyan.ui.activity.SplashActivity", "appium:appPackage": "com.tal.kaoyan", "appium:deviceName": "127.0.0.1:62025", "platformName": "Android", "appium:noReset": true, "appium:platformVersion": "5.1.1"}]}}
+2019-03-23 22:52:11,548[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:19,527[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 887
+2019-03-23 22:52:19,535[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:19,540[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/timeouts {"sessionId": "45d8ee92-7cd0-4f21-b6ca-a55793bf58d0", "implicit": 5000}
+2019-03-23 22:52:19,542[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:19,575[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/timeouts HTTP/1.1" 200 14
+2019-03-23 22:52:19,577[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:19,578[test_appium.py line:24] DEBUG: 启动考研帮...
+2019-03-23 22:52:19,579[test_appium.py line:27] DEBUG: login...
+2019-03-23 22:52:19,581[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element {"value": "android:id/message", "sessionId": "45d8ee92-7cd0-4f21-b6ca-a55793bf58d0", "using": "id"}
+2019-03-23 22:52:19,583[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:24,705[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element HTTP/1.1" 404 444
+2019-03-23 22:52:24,706[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:24,707[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element {"value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout/android.widget.LinearLayout", "sessionId": "45d8ee92-7cd0-4f21-b6ca-a55793bf58d0", "using": "xpath"}
+2019-03-23 22:52:24,708[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:24,960[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element HTTP/1.1" 200 67
+2019-03-23 22:52:24,961[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:24,965[remote_connection.py line:388] DEBUG: GET http://127.0.0.1:4723/wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element/1/text {"sessionId": "45d8ee92-7cd0-4f21-b6ca-a55793bf58d0", "id": "1"}
+2019-03-23 22:52:24,966[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:25,137[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "GET /wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element/1/text HTTP/1.1" 200 12
+2019-03-23 22:52:25,138[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:25,140[test_appium.py line:36] DEBUG: 
+2019-03-23 22:52:25,141[test_appium.py line:37] DEBUG: 跳过
+2019-03-23 22:52:25,141[remote_connection.py line:388] DEBUG: POST http://127.0.0.1:4723/wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element {"value": "//android.widget.EditText[1]", "sessionId": "45d8ee92-7cd0-4f21-b6ca-a55793bf58d0", "using": "xpath"}
+2019-03-23 22:52:25,142[connectionpool.py line:205] DEBUG: Starting new HTTP connection (1): 127.0.0.1:4723
+2019-03-23 22:52:30,688[connectionpool.py line:393] DEBUG: http://127.0.0.1:4723 "POST /wd/hub/session/45d8ee92-7cd0-4f21-b6ca-a55793bf58d0/element HTTP/1.1" 404 444
+2019-03-23 22:52:30,689[remote_connection.py line:440] DEBUG: Finished Request
+2019-03-23 22:52:30,696[test_appium.py line:57] DEBUG: 完成了

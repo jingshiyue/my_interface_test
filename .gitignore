@@ -1,0 +1,5 @@
+*.wpr
+*.wpu
+testignore.*
+/add_test.*
+tt.txt
